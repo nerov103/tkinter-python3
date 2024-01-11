@@ -13,8 +13,15 @@ def button_function():
 label = tk.Label(windo, fg="red",bg="black", font=("Arial", 16),padx=100, pady= 5)
 label.pack()
 
+
 button = tk.Button(windo, text="Click Me", bg="white", fg="black", command=button_function)
-button.pack()
+button.pack(side=tk.BOTTOM, fill=tk.X)
+
+
+
+
+
+
 
 
 
@@ -24,16 +31,6 @@ button.pack()
 
 
 windo.mainloop()
-
-
-
-
-
-
-
-
-
-
 #all code write by Nerov Ahmead
 #facebook/nerov13
 #github/nerov103
