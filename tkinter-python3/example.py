@@ -35,24 +35,27 @@ windo = tkinter.Tk()
 
 windo.geometry("500x500")
 
-label = tkinter.Label(windo, text="Hello World", fg="red", bg="PowderBlue")
-label.pack()
+# label = tkinter.Label(windo, text="Hello World", fg="red", bg="PowderBlue")
+# label.pack()
 
 
-label = tkinter.Label(windo, text="Hello World", fg="black", bg="PowderBlue")
-label.pack(side=["left"])
+# label = tkinter.Label(windo, text="Hello World", fg="black", bg="PowderBlue")
+# label.pack(side=["left"])
 
 
-label = tkinter.Label(windo, text="Hello World", fg="green", bg="PowderBlue")
-label.pack(side=["bottom"])
+# label = tkinter.Label(windo, text="Hello World", fg="green", bg="PowderBlue")
+# label.pack(side=["bottom"])
 
 
-label = tkinter.Label(windo, text="Hello World", fg="red", bg="PowderBlue")
-label.pack(side=["right"])
+# label = tkinter.Label(windo, text="Hello World", fg="red", bg="PowderBlue")
+# label.pack(side=["right"])
 
 
 
+ent = tkinter.Entry(windo)
+ent.pack()
 
+print(type(ent))
 
 
 
