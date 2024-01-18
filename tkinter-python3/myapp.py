@@ -31,7 +31,7 @@ def my_video():
         youtubeObject.download()
     except:
         print("An error has occurred")
-    error_label.config(text="Download is completed successfully")
+    error_label.config(text="Download is completed...")
 
 
 #create a function for entry box
